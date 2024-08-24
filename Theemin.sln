@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theemin", "Theemin\Theemin.csproj", "{19CEFCB5-F36D-4187-A63D-49242E6B9CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theemin.Templating", "Theemin.Templating\Theemin.Templating.csproj", "{21629AF0-ED64-48E8-A6CE-B2C633C3AF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theemin.Content", "Theemin.Content\Theemin.Content.csproj", "{B0607438-2230-47D4-BAED-4BE2DECBCACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CEFCB5-F36D-4187-A63D-49242E6B9CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CEFCB5-F36D-4187-A63D-49242E6B9CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CEFCB5-F36D-4187-A63D-49242E6B9CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CEFCB5-F36D-4187-A63D-49242E6B9CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21629AF0-ED64-48E8-A6CE-B2C633C3AF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21629AF0-ED64-48E8-A6CE-B2C633C3AF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21629AF0-ED64-48E8-A6CE-B2C633C3AF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21629AF0-ED64-48E8-A6CE-B2C633C3AF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0607438-2230-47D4-BAED-4BE2DECBCACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0607438-2230-47D4-BAED-4BE2DECBCACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0607438-2230-47D4-BAED-4BE2DECBCACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0607438-2230-47D4-BAED-4BE2DECBCACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
