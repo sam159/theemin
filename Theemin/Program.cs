@@ -13,12 +13,15 @@ builder.Services
     .AddContentServices()
     .AddSingleton<IContentTypeProvider, FileExtensionContentTypeProvider>();
 
+builder.Services.AddHealthChecks();
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/error/500");
 }
+app.MapHealthChecks("/healthz").RequireHost("localhost", "127.0.0.1");
 
 const string fallbackErrorHtml = "<html><head><title>Server Error</title></head><body><h1>Server Error</h1></body></html>";
 const string fallbackNotFoundHtml = "<html><head><title>Not Found</title></head><body><h1>Not Found</h1></body></html>";

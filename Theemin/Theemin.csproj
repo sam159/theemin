@@ -11,4 +11,8 @@
     <ProjectReference Include="..\Theemin.Templating\Theemin.Templating.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove=".dockerignore" />
+  </ItemGroup>
+
 </Project>
